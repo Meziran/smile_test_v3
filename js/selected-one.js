@@ -1,6 +1,6 @@
 $(document).ready(function () {
-  $(".selected").select2({
-    placeholder: "Selected element",
+  $(".selected-one").select2({
+    placeholder: "No selected element",
     allowClear: true,
     minimumResultsForSearch: Infinity,
   });
