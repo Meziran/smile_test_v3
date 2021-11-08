@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+
+    <title>Links and form elements</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,7 +23,6 @@
 
   <body>
     <header>
-      <title>Links and form elements</title>
       <div class="container">
         <span class="header-color">h6:</span>
         <span class="header-title">Links and form elements</span>
@@ -33,24 +33,24 @@
       <div class="cont-link container">
         <ul>
           <li class="link-list">
-            <a class="link" href="http://">Lorem ipsum dolor</a>
+            <a class="link" href="http://www">Lorem ipsum dolor</a>
           </li>
           <li class="link-list">
-            <a class="link" href="http://">Lorem ipsum dolor</a>
+            <a class="link" href="http://www">Lorem ipsum dolor</a>
           </li>
         </ul>
       </div>
       <!-- SELECTED -->
-      <div>
-        <div class="container">
-          <select class="selected-one selected" name="state">
+      <div class="selected-conteiner">
+        <div class="container selected">
+          <select class="selected-one" name="state">
             <option value="1">First item</option>
             <option value="2">Second item</option>
             <option value="3">Hovered item</option>
           </select>
         </div>
-        <div class="container">
-          <select class="selected-two selected" name="state">
+        <div class="container selected">
+          <select class="selected-two" name="state">
             <option value="1">First item</option>
             <option value="2">Second item</option>
             <option value="3">Hovered item</option>
@@ -108,39 +108,43 @@
           <!-- RADIO -->
           <ul class="radio-position">
             <li>
-              <label class="radio-label" for="radio-works-">
-                <input
-                  class="radio-input-works"
-                  type="radio"
-                  name=""
-                  id="radio-works-"
-                />
-                <svg class="radio-check">
-                  <use href="./img/sprite.svg#icon-controller"></use>
-                </svg>
-                lorem ipsum dolor
-              </label>
+              <div>
+                <label class="radio-label" for="radio-works-1">
+                  <input
+                    class="radio-input-works"
+                    type="radio"
+                    name="##"
+                    id="radio-works-1"
+                  />
+                  <svg class="radio-check">
+                    <use href="./img/sprite.svg#icon-controller"></use>
+                  </svg>
+                  lorem ipsum dolor
+                </label>
+              </div>
             </li>
             <li>
-              <label class="radio-label" for="radio-works">
-                <input
-                  class="radio-input-works"
-                  type="radio"
-                  name=""
-                  id="radio-works"
-                />
-                <svg class="radio-check">
-                  <use href="./img/sprite.svg#icon-controller"></use>
-                </svg>
-                lorem ipsum dolor
-              </label>
+              <div class="radio">
+                <label class="radio-label" for="radio-works">
+                  <input
+                    class="radio-input-works"
+                    type="radio"
+                    name=""
+                    id="radio-works"
+                  />
+                  <svg class="radio-check">
+                    <use href="./img/sprite.svg#icon-controller"></use>
+                  </svg>
+                  lorem ipsum dolor
+                </label>
+              </div>
             </li>
             <li>
               <label class="radio-label" for="radio-works-disabled">
                 <input
                   class="radio-input-works"
                   type="radio"
-                  name=""
+                  name="#"
                   id="radio-works-disabled"
                   disabled
                 />
